@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFF8DC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ExaminalController">
+   <children>
+      <Label layoutX="171.0" layoutY="55.0" text="Disease examination results" textFill="#d62424">
+         <font>
+            <Font name="Paytone One" size="32.0" />
+         </font>
+      </Label>
+      <TextField fx:id="p_id" layoutX="145.0" layoutY="159.0" promptText="Patient id" />
+      <TextField fx:id="date" layoutX="469.0" layoutY="159.0" promptText="Date" />
+      <TextArea fx:id="detail" layoutX="145.0" layoutY="210.0" prefHeight="274.0" prefWidth="511.0" promptText="Detail" />
+      <Button fx:id="submit" layoutX="596.0" layoutY="515.0" mnemonicParsing="false" onAction="#onClickSubmitBtn" text="Submit" />
+      <Button fx:id="cancle" layoutX="139.0" layoutY="515.0" mnemonicParsing="false" onAction="#onClickCancleBtn" text="Cancle" />
+   </children>
+</AnchorPane>

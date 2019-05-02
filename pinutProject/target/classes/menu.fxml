@@ -28,5 +28,10 @@
             <Image url="@search.png" />
          </image>
       </ImageView>
+      <ImageView fx:id="examinal" fitHeight="150.0" fitWidth="200.0" layoutX="312.0" layoutY="410.0" onMouseClicked="#onClickExaminal" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@examinal.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

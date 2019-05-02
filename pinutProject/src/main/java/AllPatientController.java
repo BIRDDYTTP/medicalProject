@@ -48,6 +48,7 @@ public class AllPatientController implements Initializable {
                 while (resultSet.next()){
                     observableList.add(new Patient(resultSet.getString("id"), resultSet.getString("name"), resultSet.getString("lastname"), resultSet.getString("address"),resultSet.getInt("age")));
                 }
+                conn.close();
             }
 
         } catch (ClassNotFoundException e) {
