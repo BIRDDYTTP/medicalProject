@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFF8DC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <Label layoutX="356.0" layoutY="45.0" text="MENU" textFill="#d62424">
+         <font>
+            <Font name="Paytone One" size="29.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="add" fitHeight="150.0" fitWidth="200.0" layoutX="44.0" layoutY="225.0" onMouseClicked="#onClickAdd" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@add.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="all" fitHeight="150.0" fitWidth="200.0" layoutX="312.0" layoutY="225.0" onMouseClicked="#onClickAll" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@all.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="search" fitHeight="150.0" fitWidth="200.0" layoutX="547.0" layoutY="225.0" onMouseClicked="#onClickSearch" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@search.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
